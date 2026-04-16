@@ -2,7 +2,7 @@ Nama Kelompok : Spontan Collab
 
 Daftar Nama Kelompok
 
-      Meisirik wahyuni 251401014
+      Meisrik wahyuni 251401014
       
       Muhammad Fadlan Nasution 251401017
 
