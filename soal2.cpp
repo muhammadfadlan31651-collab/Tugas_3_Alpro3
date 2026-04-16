@@ -39,18 +39,8 @@ int main() {
     */
     for (int i = 0; i < (int)kalimat.length(); i++) {
         if (kalimat[i] == huruf) {
-            /*
-            Jika karakter ke-i SAMA dengan huruf yang ingin dihapus:
-            - jangan masukkan ke string hasil
-            - tambahkan counter count
-            */
             count++;
         } else {
-            /*
-            Jika karakter ke-i TIDAK SAMA dengan huruf yang ingin dihapus:
-            - masukkan ke string hasil
-            Operator += pada string berarti menambah/menyambung karakter
-            */
             hasil += kalimat[i];
         }
     }
