@@ -20,13 +20,8 @@ int main() {
     string hasil = "";
     int count = 0;    
 
-    cout << "Masukkan kalimat : ";
-    /*
-    cin.ignore() digunakan untuk mengabaikan karakter newline (\n)
-    yang tersisa di buffer setelah cin sebelumnya.
-    Tanpa ini, getline() akan langsung membaca baris kosong.
-    */
-    cin.ignore();
+    cout << "Masukkan kalimat : "; 
+    cin.ignore();           // digunakn untuk mengabaikan karakter newline(\n)
     getline(cin, kalimat);  // getline dipakai agar bisa membaca kalimat dengan spasi
 
     cout << "Masukkan huruf   : ";
