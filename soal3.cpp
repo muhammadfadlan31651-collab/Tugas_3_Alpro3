@@ -16,22 +16,6 @@ contoh input                   contoh output
 
 #include <iostream>
 using namespace std;
-
-/*
-FUNGSI isKabisat:
-Mengembalikan true jika tahun adalah tahun kabisat, false jika bukan.
-
-ATURAN TAHUN KABISAT:
-1. Habis dibagi 4  => kemungkinan kabisat
-2. Tapi jika habis dibagi 100 => BUKAN kabisat
-3. Kecuali jika habis dibagi 400 => KABISAT
-
-Contoh:
-- 2000: habis 400 => kabisat
-- 1900: habis 100 tapi tidak habis 400 => bukan kabisat
-- 2004: habis 4, tidak habis 100 => kabisat
-- 2001: tidak habis 4 => bukan kabisat
-*/
 bool isKabisat(int tahun) {
     if (tahun % 400 == 0) {
         return true;    // habis dibagi 400 => pasti kabisat
